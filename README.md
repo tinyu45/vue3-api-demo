@@ -26,7 +26,7 @@ yarn lint
 
 ### 在新预览
 
-![预览图](./thumbnail.png)
+![预览图](/thumbnail.png)
 
 https://csb-hvnb2s.netlify.app/
 
