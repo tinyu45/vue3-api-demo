@@ -1,4 +1,3 @@
-
 # vue3 响应式 API 练习
 
 ## Project setup
@@ -25,7 +24,9 @@ yarn build
 yarn lint
 ```
 
-### 在新查看
+### 在新预览
+
+![预览图](thumbnail.png)
 
 https://csb-hvnb2s.netlify.app/
 
