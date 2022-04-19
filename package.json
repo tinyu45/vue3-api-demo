@@ -1,5 +1,5 @@
 {
-  "name": "vue3-start",
+  "name": "vue3-api-demo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,7 @@
     "babel-loader": "8.2.4",
     "core-js": "^3.6.5",
     "less": "4.1.2",
-    "less-loader": "10.2.0",
+    "less-loader": "4.1.0",
     "vue": "3.2.33",
     "vue-template-compiler": "2.6.14"
   },
@@ -22,21 +22,35 @@
     "@vue/compiler-sfc": "^3.0.0-0",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.0"
+    "eslint-plugin-vue": "^7.0.0-0"
   },
   "eslintConfig": {
     "root": true,
     "env": {
-      "node": true,
-      "vue/setup-compiler-macros": true
+      "node": true
     },
-    "extends": ["plugin:vue/vue3-essential", "eslint:recommended"],
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": "warn",
+      "vue/no-unused-var": "off",
+      "vue/custom-event-name-casing": "off"
+    }
   },
-  "browserslist": ["> 1%", "last 2 versions", "not dead"],
-  "keywords": ["vue"],
-  "description": "vue3代码练习"
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "keywords": [
+    "demo",
+    "vue3",
+    "响应式api"
+  ],
+  "description": "vue3响应式API练习"
 }
